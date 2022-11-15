@@ -1,0 +1,25 @@
+.Burger{
+    width:50%;
+  
+    float: left;
+    margin:auto;
+    height:690px;
+    overflow: scroll;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    /*background-image: url('../../assets//images/auto.jpg');*/
+    background-image: url('../../assets//images/sprinkle.jpg');
+   
+  
+
+
+}
+
+
+@media(min-width:500px) and(min-height:400px){
+    .Burger{
+        width: 350px;
+        height:300px;
+    }
+}
